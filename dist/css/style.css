@@ -151,3 +151,9 @@ header .overlay {
 .section1 img:hover + .rectangle{
       opacity: 1;
      }
+
+.title{
+  top: 0;
+  position: absolute;
+  padding-top: 150px;
+}
