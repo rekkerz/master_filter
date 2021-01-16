@@ -47,8 +47,12 @@ var isInViewport = function (elem) {
 
 var contacts = document.getElementById("contects");
 document.addEventListener('scroll', function(e) {
-  if(isInViewport(contacts)){
-    document.getElementById("phone").style.visibility = "hidden";
+  try{
+    if(isInViewport(contacts)){
+      document.getElementById("phone").style.visibility = "hidden";
+    }
+  }catch(error){
+
   }
 });
 
