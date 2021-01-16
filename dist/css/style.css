@@ -78,8 +78,8 @@ header .overlay {
     width:104px;
     font-size: 30px;
     text-align: center;
-    right:74px;
-    bottom:74px;
+    right:21px;
+    bottom:21px;
     position: fixed;
     z-index: 5;
 }
