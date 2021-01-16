@@ -46,6 +46,9 @@ var isInViewport = function (elem) {
 };
 
 var contacts = document.getElementById("contects");
-if(isInViewport(contacts)){
-  document.getElementById("phone").style.visibility = "hidden";
-}
+document.addEventListener('scroll', function(e) {
+  if(isInViewport(contacts)){
+    document.getElementById("phone").style.visibility = "hidden";
+  }
+});
+
