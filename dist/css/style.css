@@ -157,3 +157,7 @@ header .overlay {
   position: absolute;
   padding-top: 150px;
 }
+
+.logos img{
+  width: 150px
+}
