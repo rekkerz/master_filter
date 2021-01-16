@@ -45,7 +45,7 @@ var isInViewport = function (elem) {
   );
 };
 
-var contacts = document.getElementById("contects");
+var contacts = document.getElementById("contacts");
 document.addEventListener('scroll', function(e) {
   try{
     if(isInViewport(contacts)){
