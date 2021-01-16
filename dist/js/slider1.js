@@ -50,6 +50,8 @@ document.addEventListener('scroll', function(e) {
   try{
     if(isInViewport(contacts)){
       document.getElementById("phone").style.visibility = "hidden";
+    }else{
+      document.getElementById("phone").style.visibility = "visible";
     }
   }catch(error){
 
