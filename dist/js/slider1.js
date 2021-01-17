@@ -49,9 +49,9 @@ var contacts = document.getElementById("contacts");
 document.addEventListener('scroll', function(e) {
   try{
     if(isInViewport(contacts)){
-      document.getElementById("phone").style.visibility = "hidden";
+      document.getElementById("bubble_menu").style.visibility = "hidden";
     }else{
-      document.getElementById("phone").style.visibility = "visible";
+      document.getElementById("bubble_menu").style.visibility = "visible";
     }
   }catch(error){
 
