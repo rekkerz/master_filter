@@ -159,6 +159,10 @@ header .overlay {
 
 /*Bubbles menu*/
 .bubble_menu{
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  z-index: 5
 }
 
 .nav--checkbox {
