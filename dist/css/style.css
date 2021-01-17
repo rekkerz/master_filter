@@ -159,13 +159,6 @@ header .overlay {
 
 /*Bubbles menu*/
 .bubble_menu{
-  margin: auto 1px;
-  width:104px;
-  height: 104px;
-  font-size: 30px;
-  text-align: center;
-  position: fixed;
-  z-index: 5;
 }
 
 .nav--checkbox {
