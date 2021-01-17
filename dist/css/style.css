@@ -158,6 +158,11 @@ header .overlay {
 }
 
 /*Bubbles menu*/
+#phone{
+  width: 40px;
+  margin: 15px;
+}
+
 .bubble_menu{
   position: sticky;
   bottom: 0;
