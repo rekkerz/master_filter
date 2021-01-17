@@ -155,6 +155,7 @@ header .overlay {
   position: absolute;
   padding-top: 120px;
   text-align: center;
+  color: #FFCDCD;
 }
 
 .logos img{
